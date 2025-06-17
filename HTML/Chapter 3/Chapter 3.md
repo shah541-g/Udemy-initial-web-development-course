@@ -34,7 +34,7 @@ The <u> tag is used to underline text.
 <p>This is <u>underlined</u> text.</p>
 ```
 ### 6. <s> - Strikethrough Text - </s>
-The &amp;lt;s&amp;gt; tag is used to draw a horizontal line through the text, indicating that it has been deleted.
+The &amp;s&amp; tag is used to draw a horizontal line through the text, indicating that it has been deleted.
 ```html
 <p>This text is <s>strikethrough</s></p>
 ```
