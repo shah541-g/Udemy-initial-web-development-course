@@ -33,7 +33,7 @@ The <u> tag is used to underline text.
 ```html
 <p>This is <u>underlined</u> text.</p>
 ```
-### 6. <s> - Strikethrough Text
+### 6. <s> - Strikethrough Text <s>
 The <s> tag is used to draw a horizontal line through the text, indicating that it has been deleted.
 ```html
 <p>This text is <s>strikethrough</s></p>
