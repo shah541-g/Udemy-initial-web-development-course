@@ -1,1 +1,138 @@
-Article on HTML Chapter 02HTML Styling and Structure: Enhancing Web PagesHTML provides various methods to style and structure web pages effectively. In this guide, we'll explore different techniques such as inline styling, CSS, block and inline elements,&nbsp;div&nbsp;and&nbsp;span&nbsp;elements, classes, IDs, and hyperlinks with examples.1. HTML Style AttributeThe&nbsp;style&nbsp;attribute is used to add inline styles to HTML elements.&lt;p style="color: red; font-size: 16px;"&gt;This is styled text.&lt;/p&gt;2. HTML with CSS in Three MethodsExternal CSS&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;Internal CSS&lt;style&gt;    p {        color: red;        font-size: 16px;    }&lt;/style&gt;Inline CSS&lt;p style="color: red; font-size: 16px;"&gt;This is styled text.&lt;/p&gt;3. HTML Block and Inline Level ElementBlock Level Element&lt;div&gt;This is a block level element.&lt;/div&gt;Inline Level Elemente&lt;span&gt;This is an inline level element.&lt;/span&gt;4.&nbsp;div&nbsp;and&nbsp;span&nbsp;Elements&lt;div&gt;&nbsp;Element&lt;div&gt;This is a block level element.&lt;/div&gt;&lt;span&gt;&nbsp;Element&lt;span&gt;This is an inline level element.&lt;/span&gt;5. HTML Class (Lecture 164)&lt;p class="highlight"&gt;This text is highlighted.&lt;/p&gt;&nbsp;&lt;style&gt;    .highlight {        background-color: yellow;    }&lt;/style&gt;6. HTML ID Attributes&lt;p id="intro"&gt;This is the introduction.&lt;/p&gt;&nbsp;&lt;style&gt;    #intro {        font-size: 20px;    }&lt;/style&gt;7. Bookmarking with ID and HyperlinksCreating a Bookmark&lt;a id="section1"&gt;&lt;/a&gt;&lt;h2&gt;Section 1&lt;/h2&gt;Linking to the Bookmark&lt;a href="#section1"&gt;Go to Section 1&lt;/a&gt;Example: HTML Styling and Structure&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;    &lt;title&gt;HTML Styling and Structure&lt;/title&gt;    &lt;style&gt;        .highlight {            background-color: yellow;        }        #intro {            font-size: 20px;        }    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;&nbsp;&lt;p style="color: red; font-size: 16px;"&gt;This is styled text.&lt;/p&gt;&nbsp;&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;&nbsp;&lt;style&gt;    p {        color: red;        font-size: 16px;    }&lt;/style&gt;&nbsp;&lt;div&gt;This is a block level element.&lt;/div&gt;&lt;span&gt;This is an inline level element.&lt;/span&gt;&nbsp;&lt;p class="highlight"&gt;This text is highlighted.&lt;/p&gt;&nbsp;&lt;p id="intro"&gt;This is the introduction.&lt;/p&gt;&nbsp;&lt;a id="section1"&gt;&lt;/a&gt;&lt;h2&gt;Section 1&lt;/h2&gt;&lt;a href="#section1"&gt;Go to Section 1&lt;/a&gt;&nbsp;&lt;/body&gt;&lt;/html&gt;ConclusionBy using HTML styling attributes, CSS, block and inline elements,&nbsp;div&nbsp;and&nbsp;span&nbsp;elements, classes, IDs, and hyperlinks effectively, you can enhance the appearance and structure of your web pages, making them more visually appealing and user-friendly
+# Article on HTML Chapter 02: HTML Styling and Structure - Enhancing Web Pages
+
+HTML provides various methods to style and structure web pages effectively. In this guide, we'll explore different techniques such as inline styling, CSS, block and inline elements, div and span elements, classes, IDs, and hyperlinks with examples.
+
+## 1. HTML Style Attribute
+The style attribute is used to add inline styles to HTML elements.
+
+```html
+<p style="color: red; font-size: 16px;">This is styled text.</p>
+```
+
+## 2. HTML with CSS in Three Methods
+### External CSS
+
+```html
+<link rel="stylesheet" type="text/css" href="styles.css">
+```
+
+### Internal CSS
+
+```html
+<style>
+    p {
+        color: red;
+        font-size: 16px;
+    }
+</style>
+```
+
+### Inline CSS
+
+```html
+<p style="color: red; font-size: 16px;">This is styled text.</p>
+```
+
+## 3. HTML Block and Inline Level Element
+### Block Level Element
+```html
+<div>This is a block level element.</div>
+```
+
+### Inline Level Element
+```html
+<span>This is an inline level element.</span>
+```
+
+## 4. div and span Elements
+
+### <div> Element
+```html
+<div>This is a block level element.</div>
+```
+
+### <span> Element
+```html
+<span>This is an inline level element.</span>
+```
+
+## 5. HTML Class (Lecture 164)
+```html
+<p class="highlight">This text is highlighted.</p>
+
+<style>
+    .highlight {
+        background-color: yellow;
+    }
+</style>
+```
+
+## 6. HTML ID Attributes
+```html
+<p id="intro">This is the introduction.</p>
+
+<style>
+    #intro {
+        font-size: 20px;
+    }
+</style>
+```
+
+## 7. Bookmarking with ID and Hyperlinks
+### Creating a Bookmark
+```html
+<a id="section1"></a>
+<h2>Section 1</h2>
+```
+
+### Linking to the Bookmark
+```html
+<a href="#section1">Go to Section 1</a>
+```
+
+### Example: HTML Styling and Structure
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Styling and Structure</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+        #intro {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<p style="color: red; font-size: 16px;">This is styled text.</p>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<style>
+    p {
+        color: red;
+        font-size: 16px;
+    }
+</style>
+
+
+<div>This is a block level element.</div>
+<span>This is an inline level element.</span>
+
+<p class="highlight">This text is highlighted.</p>
+
+<p id="intro">This is the introduction.</p>
+
+<a id="section1"></a>
+<h2>Section 1</h2>
+<a href="#section1">Go to Section 1</a>
+
+</body>
+</html>
+```
+
+## Conclusion
+By using HTML styling attributes, CSS, block and inline elements, div and span elements, classes, IDs, and hyperlinks effectively, you can enhance the appearance and structure of your web pages, making them more visually appealing and user-friendly
