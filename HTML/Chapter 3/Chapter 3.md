@@ -10,8 +10,8 @@ The &lt;b&gt; tag is used to make text bold.
 <p>This is <b>bold</b> text.</p>
 ```
 
-### 2. <&lt;strong&gt; - Important Text
-The <&lt;strong&gt; tag is used to indicate text with strong importance.
+### 2. &lt;strong&gt; - Important Text
+The &lt;strong&gt; tag is used to indicate text with strong importance.
 ```html
 <p>This is <strong>important</strong> text.</p>
 ```
