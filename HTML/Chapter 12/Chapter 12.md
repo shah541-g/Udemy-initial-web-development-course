@@ -17,46 +17,46 @@ HTML forms consist of various elements that facilitate user input. These element
 
 &lt;button&gt;: Defines a clickable button.
 
-### input Element in Form
+### 1- input Element in Form
 The &lt;input&gt; element is one of the most versatile form elements. It can be used to create several different types of form controls, such as text fields, checkboxes, radio buttons, and buttons.
 
-### Radio and Checkbox
+### 2- Radio and Checkbox
 Radio buttons and checkboxes are used when users need to make single or multiple selections from a list of options.
 
-### Input Element Attributes
+### 3- Input Element Attributes
 Attributes like type, name, value, and placeholder are commonly used with the &lt;input&gt; element to control its behavior and appearance.
 
-### Label Element in Form
+### 4- Label Element in Form
 The &lt;label&gt; element is used to define a label for an &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;, or &lt;button&gt; element. It improves accessibility and user experience.
 
-### Select Element in Form
+### 5- Select Element in Form
 The &lt;select&gt; element creates a drop-down list, allowing users to select one option from a list of options.
 
-### Textarea Element in Form
+### 6- Textarea Element in Form
 The &lt;textarea&gt; element is used to create a multi-line text input field.
 
-### Button Element in Form
+### 7- Button Element in Form
 The &lt;button&gt; element defines a clickable button.
 
-### Fieldset and Legend
+### 8- Fieldset and Legend
 The &lt;fieldset&gt; element groups related form elements, and the &lt;legend&gt; element provides a caption for the &lt;fieldset&gt;.
 
-### Action Attribute in Form
+### 9- Action Attribute in Form
 The action attribute specifies where to send the form data when the form is submitted.
 
-### Name Attribute in Form
+### 10- Name Attribute in Form
 The name attribute specifies the name of an input element.
 
-### GET and POST method
+### 11- GET and POST method
 The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.
 
-### Novalidate Attribute in Form
+### 12- Novalidate Attribute in Form
 The novalidate attribute allows you to disable browser validation of form data.
 
-### AutoComplete Attribute in Form
+### 13- AutoComplete Attribute in Form
 The autocomplete attribute specifies whether a form or input field should have autocomplete enabled.
 
-### HTML Form autofocus attribute
+### 14- HTML Form autofocus attribute
 The autofocus attribute specifies that a form control should have input focus when the page loads.
 
 By mastering HTML form elements and attributes, web developers can create user-friendly and interactive web forms for collecting data and interacting with users.
