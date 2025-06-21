@@ -38,15 +38,15 @@ Similar to audio, video elements allow developers to embed video content directl
 ```
 
 ### HTML Video Attributes:
-1- src: Specifies the URL of the video file.
-2- controls: Adds video controls (play, pause, volume) to the video element.
-3- autoplay: Automatically starts playing the video when the page loads.
-4- loop: Specifies that the video will start over again when finished.
-5- preload: Specifies if and how the author thinks the video should be loaded when the page loads.
+1- src: Specifies the URL of the video file.<br>
+2- controls: Adds video controls (play, pause, volume) to the video element.<br>
+3- autoplay: Automatically starts playing the video when the page loads.<br>
+4- loop: Specifies that the video will start over again when finished.<br>
+5- preload: Specifies if and how the author thinks the video should be loaded when the page loads.<br>
 
 ### All Video Events:
-1- onplay: Script to be run when the video starts to play.
-2- onpause: Script to be run when the video is paused.
-3- onended: Script to be run when the video has finished playing.
+1- onplay: Script to be run when the video starts to play.<br>
+2- onpause: Script to be run when the video is paused.<br>
+3- onended: Script to be run when the video has finished playing.<br>
 
 Multimedia elements provide a powerful way to engage users and convey information effectively on web pages. By mastering the use of audio and video elements, web developers can create more interactive and engaging web experiences for their users.
