@@ -15,11 +15,11 @@ Audio elements allow web developers to embed sound content directly into web pag
 ```
 
 ### HTML Audio Attributes:
-1- src: Specifies the URL of the audio file.
-2- controls: Adds audio controls (play, pause, volume) to the audio element.
-3- autoplay: Automatically starts playing the audio when the page loads.
-4- loop: Specifies that the audio will start over again when finished.
-5- preload: Specifies if and how the author thinks the audio should be loaded when the page loads.
+1- src: Specifies the URL of the audio file.<br>
+2- controls: Adds audio controls (play, pause, volume) to the audio element.<br>
+3- autoplay: Automatically starts playing the audio when the page loads.<br>
+4- loop: Specifies that the audio will start over again when finished.<br>
+5- preload: Specifies if and how the author thinks the audio should be loaded when the page loads.<br>
 
 ### All Audio Events:
 1- onplay: Script to be run when the audio starts to play.
